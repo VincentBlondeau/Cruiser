@@ -11,3 +11,7 @@ NoPharoFilesOpener install. ".image, .sources"
 NoChangesLog install. "Epicea ?"
 EpMonitor current disable.
 EpMonitor reset.
+
+"to do at each startup:"
+GTPlayBook cacheDirectory: FileSystem memory / 'play-stash'.
+GTPlayBook stashDirectory: FileSystem memory / 'play-cache'.
