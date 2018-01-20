@@ -1,3 +1,3 @@
-class initialization
+system startup
 startUp
-	self new makeReadOnly
+	self activateReadOnly

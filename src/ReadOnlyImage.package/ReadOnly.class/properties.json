@@ -4,7 +4,9 @@
 	"category" : "ReadOnlyImage",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"ActivateReadOnly"
+	],
 	"instvars" : [ ],
 	"name" : "ReadOnly",
 	"type" : "normal"
