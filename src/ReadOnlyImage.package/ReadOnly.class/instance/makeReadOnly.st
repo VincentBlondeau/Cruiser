@@ -7,4 +7,5 @@ makeReadOnly
 	"to do at each startup:"
 	GTPlayBook cacheDirectory: FileSystem memory / 'play-stash'.
 	GTPlayBook stashDirectory: FileSystem memory / 'play-cache'.
-	MCCacheRepository uniqueInstance disable
+	MCCacheRepository uniqueInstance disable.
+	Smalltalk garbageCollect 
