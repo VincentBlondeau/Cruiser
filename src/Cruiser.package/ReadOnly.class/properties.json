@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Cruiser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"ActivateReadOnly"
+	],
+	"instvars" : [ ],
+	"name" : "ReadOnly",
+	"type" : "normal"
+}
