@@ -6,4 +6,5 @@ SmalltalkCISpec {
       #directory : 'src'  
     }
   ]
+  #failOnZeroTests : false
 }
