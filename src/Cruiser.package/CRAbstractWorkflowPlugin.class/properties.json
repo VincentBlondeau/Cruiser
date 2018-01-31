@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Cruiser-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"next",
+		"builder"
+	],
+	"name" : "CRAbstractWorkflowPlugin",
+	"type" : "normal"
+}

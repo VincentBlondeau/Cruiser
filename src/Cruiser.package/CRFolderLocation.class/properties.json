@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CRAbstractWorkflowPlugin",
+	"category" : "Cruiser-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"folder",
+		"shouldOverwrite"
+	],
+	"name" : "CRFolderLocation",
+	"type" : "normal"
+}

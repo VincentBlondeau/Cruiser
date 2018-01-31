@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Cruiser",
+	"super" : "CRAbstractWorkflowPlugin",
+	"category" : "Cruiser-Plugins",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
 		"ActivateReadOnly"
 	],
 	"instvars" : [ ],
-	"name" : "ReadOnly",
+	"name" : "CRReadOnly",
 	"type" : "normal"
 }
