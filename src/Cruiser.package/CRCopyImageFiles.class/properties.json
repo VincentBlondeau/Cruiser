@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "VincentBlondeau 2/5/2018 15:10",
 	"super" : "CRAbstractWorkflowPlugin",
 	"category" : "Cruiser-Plugins",
 	"classinstvars" : [ ],

@@ -1,0 +1,1 @@
+I am a plugin to make the image read only. I am not supposed to write inside the image repository and I do not need the soures files anymore. 
