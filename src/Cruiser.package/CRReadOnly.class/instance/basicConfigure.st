@@ -1,5 +1,3 @@
 private
 basicConfigure
-	"Nothing to do"
-
-	
+	self halt

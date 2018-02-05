@@ -1,3 +1,5 @@
-accessing
+private
 basicConfigure
-	self flag: 'add new items'
+	self shouldDownloadFromWeb ifNil: [ self shouldDownloadFromWeb: false ].
+	self shouldDownloadFromWeb
+		ifFalse: [ self localFile ifNil: [ self localFile: self localPharoVmZipFile ] ]

@@ -1,0 +1,3 @@
+accessing
+localFile
+	^ localFile

@@ -1,4 +1,4 @@
-accessing
+private
 basicRun
 	self folder exists
 		ifTrue: [ self shouldOverwrite

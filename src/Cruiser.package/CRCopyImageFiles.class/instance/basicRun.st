@@ -1,4 +1,4 @@
-accessing
+private
 basicRun
 	| isTheNewImage currentSources |
 	isTheNewImage := Smalltalk backupTo: self projectName folder: (self propertyAt: #folderLocation).

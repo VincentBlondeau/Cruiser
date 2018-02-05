@@ -1,3 +1,3 @@
-accessing
+private
 basicRun
 	self subclassResponsibility 

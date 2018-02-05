@@ -1,3 +1,3 @@
-accessing
+private
 basicConfigure
 	self subclassResponsibility 
