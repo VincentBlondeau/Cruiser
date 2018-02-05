@@ -6,7 +6,7 @@ baseline: spec
 		do: [ spec
 				project: 'PharoLauncher-Download'
 				with: [ spec
-						className: #PharoLauncher;
+						className: #ConfigurationOfPharoLauncher;
 						versionString: #bleedingEdge;
 						loads: #Download;
 						repository: 'http://www.smalltalkhub.com/mc/Pharo/PharoLauncher/main' ].
