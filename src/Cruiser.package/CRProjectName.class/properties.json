@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CRAbstractWorkflowPlugin",
+	"category" : "Cruiser-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name"
+	],
+	"name" : "CRProjectName",
+	"type" : "normal"
+}

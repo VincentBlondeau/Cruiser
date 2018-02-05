@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CRAbstractWorkflowPlugin",
+	"category" : "Cruiser-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CRCopyVMFiles",
+	"type" : "normal"
+}

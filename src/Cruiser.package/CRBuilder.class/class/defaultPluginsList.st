@@ -1,3 +1,6 @@
 as yet unclassified
 defaultPluginsList
-	^ { CRFolderLocation . CRCopyImageFiles }
+	^ {CRProjectName.
+	CRFolderLocation.
+	CRCopyImageFiles.
+	CRCopyVMFiles}

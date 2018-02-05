@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "VincentBlondeau 1/31/2018 15:45",
+	"super" : "Exception",
+	"category" : "Cruiser-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CRSkipExecution",
+	"type" : "normal"
+}

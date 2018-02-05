@@ -1,5 +1,4 @@
-as yet unclassified
+actions
 configure
 	self checkOrderAndMandatoryPlugins.
-	instances := self plugins collect: [ :aPluginClass | aPluginClass new basicConfigure ].
-	instances do: #basicRun
+	instances := self plugins collect: [ :aPluginClass | (aPluginClass newWith: self) basicConfigure ]
