@@ -10,5 +10,5 @@ baseline: spec
 						versionString: #bleedingEdge;
 						loads: #Download;
 						repository: 'http://www.smalltalkhub.com/mc/Pharo/PharoLauncher/main' ].
-			spec package: 'Cruiser'.
-			spec group: 'default' with: #('Cruiser') ]
+			spec package: 'Cruiser' with: [ spec requires: #('PharoLauncher-Download') ].
+			spec group: 'default' with: #('Cruiser' 'PharoLauncher-Download') ]
