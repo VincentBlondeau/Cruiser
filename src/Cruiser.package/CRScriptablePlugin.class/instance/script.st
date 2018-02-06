@@ -1,0 +1,3 @@
+private
+script
+	self subclassResponsibility 

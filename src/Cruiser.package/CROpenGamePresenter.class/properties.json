@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CRScriptablePlugin",
+	"category" : "Cruiser-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CROpenGamePresenter",
+	"type" : "normal"
+}
