@@ -1,6 +1,6 @@
 private
 basicRun
-	| vmLocation cmd |
+	| vmLocation cmd res |
 	vmLocation := self propertyAt: #folderLocation.
 	cmd := String
 		streamContents: [ :stream | 
@@ -11,6 +11,8 @@ basicRun
 				<<
 					(Smalltalk os isUnix
 						ifTrue: [ ' --nodisplay ' ]
-						ifFalse: [ ' --headless ' ]) << $" << (vmLocation allChildrenMatching: '*.image') first pathString << '" '.
+						ifFalse: [ ' --headless ' ]) << $"
+				<< (vmLocation allChildrenMatching: '*.image') first pathString << '" '.
 			stream << '--no-default-preferences eval --save ' << $" << self script << $" ].
-	PhLProcessWrapper waitForCommand: cmd
+	res := PhLProcessWrapper waitForCommand: cmd.
+	2 seconds wait
