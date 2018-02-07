@@ -13,4 +13,4 @@ deploymentFolderSettingsOn: aBuilder
 				order: 0;
 				type: #Directory;
 				description: 'The path of the folder where the application will be deployed';
-				label: 'Deployment folder path' ]
+				label: 'Path' ]
