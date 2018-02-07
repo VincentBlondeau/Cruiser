@@ -7,4 +7,4 @@ cleanWindowsDeploymentSettingsOn: aBuilder
 		actionTarget: World;
 		actionTargetSelector: #closeAllWindowsForced;
 		order: 50;
-		orderGroup: #cleaning
+		parent: #cleaning

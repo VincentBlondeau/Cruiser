@@ -7,7 +7,7 @@ copyImageDeploymentSettingOn: aBuilder
 		actionTarget: self current;
 		actionTargetSelector: #copyImageTo:named:;
 		order: 50;
-		orderGroup: #copy;
+		parent: #copying;
 		with: [ (aBuilder deploymentAttribute: #destinationFolder)
 				type: #Directory;
 				description: 'The path of a directory where you want to copy the image and sources folder';

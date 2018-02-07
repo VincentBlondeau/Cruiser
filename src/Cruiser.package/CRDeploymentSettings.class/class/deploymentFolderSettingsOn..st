@@ -8,7 +8,7 @@ deploymentFolderSettingsOn: aBuilder
 		actionTargetSelector: #folder:;
 		default: FileLocator imageDirectory / 'packagedImage';
 		order: 1;
-		orderGroup: #init;
+		parent: #initializing;
 		with: [ (aBuilder deploymentAttribute: #deploymentFolder)
 				order: 0;
 				type: #Directory;

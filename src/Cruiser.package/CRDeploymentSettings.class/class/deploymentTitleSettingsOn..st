@@ -7,7 +7,7 @@ deploymentTitleSettingsOn: aBuilder
 		actionTarget: self current;
 		actionTargetSelector: #title:;
 		order: 0;
-		orderGroup: #init;
+		parent: #initializing;
 		with: [ (aBuilder deploymentAttribute: #defaultTitleAttribute)
 				order: 0;
 				type: #String;

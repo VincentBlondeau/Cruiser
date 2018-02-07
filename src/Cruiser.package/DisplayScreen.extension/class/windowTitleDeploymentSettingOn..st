@@ -7,7 +7,7 @@ windowTitleDeploymentSettingOn: aBuilder
 		actionTarget: self;
 		actionTargetSelector: #setWindowTitle:;
 		order: 100;
-		orderGroup: #configuring;
+		parent: #configuring;
 		with: [ (aBuilder deploymentAttribute: #windowTitleAttribute)
 				type: #String;
 				default: #projectName;
