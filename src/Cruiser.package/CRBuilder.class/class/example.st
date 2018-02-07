@@ -1,0 +1,11 @@
+example
+example
+	CRBuilder
+		runWithList:
+			{CRProjectName.
+			CRFolderLocation.
+			CRCopyImageFiles.
+			CRCopyVMFiles.
+			CRCleanWindows.
+			CRWindowTitle.
+			CROpenGamePresenter}

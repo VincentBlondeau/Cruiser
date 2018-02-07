@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SettingTreeBuilder",
+	"category" : "Cruiser-Settings-Browser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DeploymentSettingTreeBuilder",
+	"type" : "normal"
+}

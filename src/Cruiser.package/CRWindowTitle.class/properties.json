@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CRScriptablePlugin",
+	"category" : "Cruiser-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title"
+	],
+	"name" : "CRWindowTitle",
+	"type" : "normal"
+}

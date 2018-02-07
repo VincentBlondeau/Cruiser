@@ -1,6 +1,6 @@
 private
 basicRun
-	"Todo first!"
+	"Todox first!"
 
 	(Smalltalk at: #FFICompilerPlugin) install.
 	"Then we can remove the sources"

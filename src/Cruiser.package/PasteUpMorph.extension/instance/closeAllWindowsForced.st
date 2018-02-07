@@ -1,5 +1,5 @@
 *Cruiser
-closeAllWindowsEvenUnclosableDiscardingChanges
+closeAllWindowsForced
 	World systemWindows
 		do: [ :w | 
 			w makeClosable.

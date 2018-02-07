@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SettingDeclaration",
+	"category" : "Cruiser-Settings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CRDeploymentParameterDeclaration",
+	"type" : "normal"
+}
