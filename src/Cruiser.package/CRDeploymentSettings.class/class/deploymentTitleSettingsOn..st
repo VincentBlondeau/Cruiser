@@ -11,6 +11,6 @@ deploymentTitleSettingsOn: aBuilder
 		with: [ (aBuilder deploymentAttribute: #defaultTitleAttribute)
 				order: 0;
 				type: #String;
-				default: 'My project';
+				default: self defaultTitle;
 				description: 'The name of the deployment project';
 				label: 'Title' ]

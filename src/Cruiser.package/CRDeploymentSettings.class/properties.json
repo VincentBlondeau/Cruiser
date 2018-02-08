@@ -8,7 +8,7 @@
 		"Current"
 	],
 	"instvars" : [
-		"name",
+		"title",
 		"folder"
 	],
 	"name" : "CRDeploymentSettings",

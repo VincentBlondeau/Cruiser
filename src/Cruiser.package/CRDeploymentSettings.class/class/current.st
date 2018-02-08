@@ -1,3 +1,3 @@
 accessing
 current
-	^ Current
+	^ Current ifNil: [ Current := self new ]

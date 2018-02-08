@@ -12,5 +12,5 @@ deploymentFolderSettingsOn: aBuilder
 				order: 0;
 				type: #Directory;
 				description: 'The path of the folder where the application will be deployed';
-				default: FileLocator imageDirectory / 'packagedImage';
+				default: self defaultFolder;
 				label: 'Path' ]

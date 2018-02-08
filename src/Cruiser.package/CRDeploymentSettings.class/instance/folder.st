@@ -1,3 +1,3 @@
 accessing
 folder
-	^ folder
+	^ folder ifNil: [ self class defaultFolder ]

@@ -11,5 +11,6 @@ windowTitleDeploymentSettingOn: aBuilder
 		with: [ (aBuilder deploymentAttribute: #windowTitleAttribute)
 				type: #String;
 				default: #projectName;
+				defaultIsDeploymentVariable: true;
 				description: 'The title';
 				label: 'Title' ]
