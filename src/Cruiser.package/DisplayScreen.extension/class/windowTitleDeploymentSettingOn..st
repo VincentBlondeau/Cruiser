@@ -4,7 +4,7 @@ windowTitleDeploymentSettingOn: aBuilder
 	(aBuilder deployment: #windowTitle)
 		label: 'Window title';
 		description: 'The title of the main window that will be displayed';
-		actionTarget: self;
+		actionTarget: [ DisplayScreen ];
 		actionTargetSelector: #setWindowTitle:;
 		order: 100;
 		parent: #configuring;

@@ -4,14 +4,13 @@ copyImageDeploymentSettingOn: aBuilder
 	(aBuilder deployment: #copyExistingImage)
 		label: 'Copy Existing Image';
 		description: 'Copy the current image to the deployment folder';
-		actionTarget: self current;
+		actionTarget: [ SmalltalkImage current ];
 		actionTargetSelector: #copyImageTo:named:;
 		order: 50;
 		parent: #copying;
 		with: [ (aBuilder deploymentAttribute: #destinationFolder)
 				type: #Directory;
-				description:
-					'The path of a directory where you want to copy the image and sources folder';
+				description: 'The path of a directory where you want to copy the image and sources folder';
 				order: 1;
 				default: #folder;
 				defaultIsDeploymentVariable: true;

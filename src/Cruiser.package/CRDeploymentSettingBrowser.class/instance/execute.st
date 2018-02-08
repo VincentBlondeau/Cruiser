@@ -1,3 +1,5 @@
-as yet unclassified
 execute
-	self rootNodes do: #executeAction
+execute
+	[ self rootNodes do: #executeAction ]
+		on: CRSkipExecution
+		do: [ "Nothing" ]

@@ -21,7 +21,7 @@ deploymentGroupsSettingsOn: aBuilder
 		description: 'Operations to clean the application';
 		icon: (self iconNamed: #glamorousTrash);
 		order: 400.
-	(aBuilder deployment: #finalizing)
+	(aBuilder deploymentGroup: #finalizing)
 		label: 'Finalizing Actions';
 		description: 'Operations to finalize the creation of the application';
 		icon: (self iconNamed: #publish);

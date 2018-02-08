@@ -4,7 +4,7 @@ deploymentFolderSettingsOn: aBuilder
 	(aBuilder deployment: #defaultFolder)
 		label: 'Deployment folder';
 		description: 'Folder where the operation to build the application will be done';
-		actionTarget: self current;
+		actionTarget: [ CRDeploymentSettings current ];
 		actionTargetSelector: #folder:;
 		order: 1;
 		parent: #initializing;

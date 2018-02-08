@@ -4,7 +4,7 @@ deploymentTitleSettingsOn: aBuilder
 	(aBuilder deployment: #defaultTitle)
 		label: 'Project title';
 		description: 'The name of the deployment project';
-		actionTarget: self current;
+		actionTarget: [ CRDeploymentSettings current ];
 		actionTargetSelector: #title:;
 		order: 0;
 		parent: #initializing;
