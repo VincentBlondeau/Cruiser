@@ -1,5 +1,4 @@
 accessing
 realValue
 	"Answer the value of realValue"
-
-	^ self getSelector
+	^ value ifNil: [ self default ]

@@ -1,5 +1,3 @@
-accessing
+user interface
 realValue
-	"Answer the value of realValue"
-
-	^ self getSelector
+	^ self name
