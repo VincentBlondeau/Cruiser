@@ -14,5 +14,4 @@ executeActionRemotelyOn: aSettingNode
 						ifFalse: [ ' --headless ' ]) << $" << (vmLocation allChildrenMatching: '*.image') first pathString << '" '.
 			stream << '--no-default-preferences eval --save ' << $" << (self script: aSettingNode) << $" ].
 	res := PhLProcessWrapper waitForCommand: cmd.
-	self halt.
-	1 seconds wait
+	2 seconds wait
