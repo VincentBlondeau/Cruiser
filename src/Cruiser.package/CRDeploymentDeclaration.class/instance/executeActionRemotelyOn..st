@@ -1,6 +1,8 @@
 as yet unclassified
 executeActionRemotelyOn: aSettingNode
 	| vmLocation cmd res |
+	self isActivated
+		ifFalse: [ ^ self ].
 	vmLocation := CRDeploymentSettings current vmFolder.
 	cmd := String
 		streamContents: [ :stream | 

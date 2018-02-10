@@ -1,3 +1,3 @@
 accessing
 folder
-	^ folder ifNil: [ self class defaultFolder ]
+	^ (folder ifNil: [ self class defaultFolder ]) asFileReference

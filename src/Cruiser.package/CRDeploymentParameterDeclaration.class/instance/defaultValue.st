@@ -1,3 +1,5 @@
 accessing
 defaultValue
-	^ self realValue
+	^ self type = #Directory
+		ifTrue: [ self default ifNotNil: #fullName ]
+		ifFalse: [ self default ]

@@ -2,4 +2,4 @@ accessing
 realValue
 	"Answer the value of realValue"
 
-	^ value ifNil: [ self default ]
+	^ value ifNil: [ self defaultValue ]

@@ -1,14 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "CRDeploymentAbstractDeclaration",
+	"super" : "SettingDeclaration",
 	"category" : "Cruiser-Settings",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"actionTarget",
-		"actionTargetSelector"
+		"activated",
+		"isActivated"
 	],
-	"name" : "CRDeploymentDeclaration",
+	"name" : "CRDeploymentAbstractDeclaration",
 	"type" : "normal"
 }

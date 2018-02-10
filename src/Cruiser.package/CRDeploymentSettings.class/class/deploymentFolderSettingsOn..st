@@ -11,6 +11,7 @@ deploymentFolderSettingsOn: aBuilder
 		with: [ (aBuilder deploymentAttribute: #deploymentFolder)
 				order: 0;
 				type: #Directory;
+				isRelative: false;
 				description: 'The path of the folder where the application will be deployed';
 				default: self defaultFolder;
 				label: 'Path' ]

@@ -1,3 +1,3 @@
 as yet unclassified
 cleanFolder
-	self folder deleteAll
+	self folder ensureDeleteAll

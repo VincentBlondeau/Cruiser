@@ -12,9 +12,7 @@ copyImageDeploymentSettingOn: aBuilder
 				type: #Directory;
 				description: 'The path of a directory where you want to copy the image and sources folder';
 				order: 1;
-				default: #folder;
-				defaultIsDeploymentVariable: true;
-				label: 'Image Path'.
+				label: 'Image Relative Path'.
 			(aBuilder deploymentAttribute: #imageName)
 				type: #String;
 				order: 2;

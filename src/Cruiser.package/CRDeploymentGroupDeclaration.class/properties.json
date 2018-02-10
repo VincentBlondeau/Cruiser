@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SettingDeclaration",
+	"super" : "CRDeploymentAbstractDeclaration",
 	"category" : "Cruiser-Settings",
 	"classinstvars" : [ ],
 	"pools" : [ ],
