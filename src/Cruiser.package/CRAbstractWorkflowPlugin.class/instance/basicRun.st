@@ -1,3 +1,0 @@
-private
-basicRun
-	self subclassResponsibility 

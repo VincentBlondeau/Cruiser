@@ -1,4 +1,4 @@
-accessing
+user interface
 inputWidget
 	^ self theme
 		newCheckboxIn: World

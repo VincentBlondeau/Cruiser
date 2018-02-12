@@ -1,4 +1,4 @@
-public declaration accessing
+private
 script: parentNode
 	| args argsValues keywords targetClass |
 	args := parentNode contents.

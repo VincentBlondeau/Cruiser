@@ -1,4 +1,4 @@
-*Cruiser
+*Cruiser-Settings-Handle
 windowTitleDeploymentSettingOn: aBuilder
 	<deploymentsettings>
 	(aBuilder deployment: #windowTitle)

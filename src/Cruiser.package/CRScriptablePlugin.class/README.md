@@ -1,1 +1,0 @@
-I am a plugin that allows my subclasses to run scripts on the packaged image

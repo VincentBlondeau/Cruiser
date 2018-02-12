@@ -1,3 +1,0 @@
-testing
-isMandatory
-	^ self subclassResponsibility

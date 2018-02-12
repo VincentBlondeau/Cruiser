@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 executeActionRemotelyOn: aSettingNode
 	| vmLocation cmd res |
 	self isActivated

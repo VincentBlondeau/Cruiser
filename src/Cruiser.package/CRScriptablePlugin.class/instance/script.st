@@ -1,3 +1,0 @@
-private
-script
-	self subclassResponsibility 

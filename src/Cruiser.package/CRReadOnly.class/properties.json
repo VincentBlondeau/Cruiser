@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "VincentBlondeau 2/5/2018 15:17",
-	"super" : "CRAbstractWorkflowPlugin",
+	"super" : "Object",
 	"category" : "Cruiser-Plugins",
 	"classinstvars" : [ ],
 	"pools" : [ ],

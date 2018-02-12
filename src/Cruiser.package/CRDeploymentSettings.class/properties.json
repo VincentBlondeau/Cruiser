@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Cruiser-Plugins",
+	"category" : "Cruiser-Settings",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 convertValue: aSettingNode
 	^ (#(#Directory #FileReference) includes: aSettingNode item type)
 		ifFalse: [ aSettingNode item realValue ]
