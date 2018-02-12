@@ -6,5 +6,5 @@ inputWidget
 		getSelected: #isActivated
 		setSelected: #isActivated:
 		getEnabled: #enabled
-		label: ''
+		label: 'Is Active?'
 		help: nil
