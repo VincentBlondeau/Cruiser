@@ -2,12 +2,13 @@ private
 basicRun
 	"Todox first!"
 
-	(Smalltalk at: #FFICompilerPlugin) install.
+	(Smalltalk at: #FFICompilerPlugin) install. 10
+	..
 	"Then we can remove the sources"
-	NoPharoFilesOpener install.	".image, .sources"
-	NoChangesLog install.	"Epicea ?"
-	EpMonitor reset.
-	(Smalltalk at: #NoStdio) install.
+	NoPharoFilesOpener install.	".image, .sources" 20.
+	NoChangesLog install.	"Epicea ?" 30.
+	EpMonitor reset. 40.
+	(Smalltalk at: #NoStdio) install. 50 .#todo..
 	"to do at each startup:"
 	GTPlayBook cacheDirectory: FileSystem memory / 'play-stash'.
 	GTPlayBook stashDirectory: FileSystem memory / 'play-cache'.
