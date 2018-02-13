@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "VincentBlondeau 1/31/2018 15:45",
 	"super" : "Exception",
-	"category" : "Cruiser-Core",
+	"category" : "Cruiser-Exception",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

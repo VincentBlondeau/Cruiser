@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "VincentBlondeau 2/12/2018 16:24",
 	"super" : "SettingBrowser",
-	"category" : "Cruiser-Settings",
+	"category" : "Cruiser-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

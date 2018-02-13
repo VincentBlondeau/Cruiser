@@ -1,4 +1,4 @@
-as yet unclassified
+deployment settings
 deploymentFolderSettingsOn: aBuilder
 	<deploymentsettings>
 	(aBuilder deployment: #defaultFolder)

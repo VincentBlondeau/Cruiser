@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "VincentBlondeau 2/5/2018 15:17",
 	"super" : "Object",
-	"category" : "Cruiser-Plugins",
+	"category" : "Cruiser-Legacy-ToIntegrate",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [

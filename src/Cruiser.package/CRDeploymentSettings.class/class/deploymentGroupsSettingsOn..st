@@ -1,4 +1,4 @@
-as yet unclassified
+deployment settings
 deploymentGroupsSettingsOn: aBuilder
 	<deploymentsettings>
 	(aBuilder deploymentGroup: #initializing)

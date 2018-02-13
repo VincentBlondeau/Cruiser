@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "VincentBlondeau 2/12/2018 15:44",
 	"super" : "CRDeploymentAbstractDeclaration",
-	"category" : "Cruiser-Settings",
+	"category" : "Cruiser-Settings-Nodes",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

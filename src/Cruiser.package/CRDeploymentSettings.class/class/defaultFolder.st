@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 defaultFolder
 	^ (FileLocator imageDirectory / 'packagedImage') asFileReference

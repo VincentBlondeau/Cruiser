@@ -1,4 +1,4 @@
-as yet unclassified
+private
 executeActionOn: aParentNode
 	| containerNode |
 	containerNode := aParentNode parentNode.

@@ -1,0 +1,1 @@
+I am the same than  the Setting Browser but I use another pragma: <deploymentsettings> to define my componnents.

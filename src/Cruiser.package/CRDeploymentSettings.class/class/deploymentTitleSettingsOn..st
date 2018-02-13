@@ -1,4 +1,4 @@
-as yet unclassified
+deployment settings
 deploymentTitleSettingsOn: aBuilder
 	<deploymentsettings>
 	(aBuilder deployment: #defaultTitle)

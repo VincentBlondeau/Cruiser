@@ -1,4 +1,4 @@
-as yet unclassified
+private
 executeActionOn: aSettingNode
 	self isActivated
 		ifFalse: [ ^ self ].

@@ -1,4 +1,4 @@
-as yet unclassified
+deployment settings
 deploymentCleanFolderSettingsOn: aBuilder
 	<deploymentsettings>
 	(aBuilder deployment: #cleanFolder)
