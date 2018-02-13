@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isRemoteStep: aString 
-	^ #(#configuring #cleaning #finalizing) includes: aString
+	^ self class remoteSteps includes: aString

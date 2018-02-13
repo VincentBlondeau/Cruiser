@@ -1,0 +1,3 @@
+accessing
+localSteps
+	^ #(#initializing #copying)
