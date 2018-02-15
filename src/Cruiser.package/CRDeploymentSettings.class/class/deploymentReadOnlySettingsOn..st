@@ -9,7 +9,7 @@ deploymentReadOnlySettingsOn: aBuilder
 	(aBuilder deployment: #readOnlyCleaning)
 		label: 'Clean the image folder';
 		description: 'Remove the .changes, .sources, and the pharo-local folder';
-		actionTarget: [ CRReadOnly ];
+		actionTarget: [ CRDeploymentSettings ];
 		actionTargetSelector: #cleanDeploymentFolder;
 		order: 999;
 		parent: #readOnly
