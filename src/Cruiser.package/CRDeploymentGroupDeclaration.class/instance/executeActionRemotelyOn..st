@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 executeActionRemotelyOn: aSettingNode
 	self isActivated
 		ifFalse: [ ^ self ].

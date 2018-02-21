@@ -9,11 +9,17 @@ executeActionRemotelyOn: aSettingNode
 			stream << 'cd "' << vmLocation pathString << '" && '.
 			Smalltalk os isUnix
 				ifTrue: [ stream << 'export SQUEAK_PLUGINS="" && ' ].
-			stream << $" << (vmLocation allChildrenMatching: 'Pharo.exe') first pathString << $"
+			stream << $"
+				<<
+					(vmLocation allChildrenMatching: CRDeploymentSettings current executableName) first
+						pathString << $"
 				<<
 					(Smalltalk os isUnix
 						ifTrue: [ ' --nodisplay ' ]
-						ifFalse: [ ' --headless ' ]) << $" << (vmLocation allChildrenMatching: '*.image') first pathString << '" '.
-			stream << '--no-default-preferences eval --save ' << $" << (self script: aSettingNode) << $" ].
+						ifFalse: [ ' --headless ' ]) << $"
+				<< (vmLocation allChildrenMatching: '*.image') first pathString << '" '.
+			stream << '--no-default-preferences eval --save ' << $" << (self script: aSettingNode)
+				<< $" ].
 	res := PhLProcessWrapper waitForCommand: cmd.
-	2 seconds wait
+	2 seconds wait.
+	self informStatus

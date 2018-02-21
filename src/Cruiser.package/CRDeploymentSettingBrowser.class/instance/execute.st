@@ -1,5 +1,8 @@
 execute
 execute
-	[ self rootNodes do: #executeAction ]
+	[ self rootNodes do: #executeAction.
+	self inform: 'Build Done!'
+	 ]
 		on: CRSkipExecution
-		do: [ "Nothing" ]
+		do: [ "Nothing" ].
+	

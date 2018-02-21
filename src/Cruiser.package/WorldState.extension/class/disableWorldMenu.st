@@ -1,0 +1,3 @@
+*Cruiser
+disableWorldMenu
+	WorldState desktopMenuPragmaKeyword: ''
