@@ -52,7 +52,7 @@ toolBarIn: aMorph
 				help:
 					'Per default, SettingBrowser shows all the setting of the system. You can restrict what is displayed to some packages that contains setting defintions.'
 						translated)."
-			(aMorph
+			"(aMorph
 				newButtonFor: self
 				getState: nil
 				action: #storeSettings
@@ -67,7 +67,7 @@ toolBarIn: aMorph
 				arguments: nil
 				getEnabled: nil
 				label: 'Load Settings' translated
-				help: 'Load the current settings from the disk' translated).
+				help: 'Load the current settings from the disk' translated)."
 			(aMorph
 				newButtonFor: self
 				getState: nil
