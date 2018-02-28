@@ -4,6 +4,7 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
+				preLoadDoIt: #preLoad;
 				project: 'PharoLauncher-Download'
 				with: [ spec
 						className: #ConfigurationOfPharoLauncher;
