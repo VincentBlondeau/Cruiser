@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "VincentBlondeau 3/5/2018 09:48",
+	"super" : "TestCase",
+	"category" : "Cruiser-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"deploymentSettingsOld",
+		"deploymentSettingsNew"
+	],
+	"name" : "CRTestExecutionInMemory",
+	"type" : "normal"
+}
