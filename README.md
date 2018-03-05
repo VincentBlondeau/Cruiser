@@ -85,6 +85,7 @@ Descriptions of the selectors (exhaustive list - mandatory item are bold):
 - **deployment or deploymentGroup**: define an standard action or a group of actions. The parameter is the identifier of the action and should be unique (no check made however). 
 - **#label**: The name that will be displayed in the list.
 - #description: The description of the feature.
+- #isActivated:  Set to false to desactivate the action (default is true).
 - **#parent**: The container of the action. All the actions of a group will be executed the ones after the others.
 - **#order**: The number in which the actions will be executed. Low number is executed before the high one. For the attributes, it is the order of the attribute for the actionTargetSelector method
 - **#actionTarget**: A clean block (without references to the outside world) whose the returning value will be used to execute #actionTargetSelector. 
