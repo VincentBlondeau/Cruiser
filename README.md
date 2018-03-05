@@ -11,7 +11,6 @@ A production environment means:
 ## How to install
 
 On a latest Pharo 7 image, clone the repository in Iceberg and load the baseline of Cruiser.
-Or you can download the builded image on the CI (Work in progress)
 
 ## How to deploy you own application
 
