@@ -1,3 +1,3 @@
 accessing
 remoteSteps
-	^ #(#configuring #cleaning #finalizing)
+	^ #(#configuring #cleaning #UserOperations)

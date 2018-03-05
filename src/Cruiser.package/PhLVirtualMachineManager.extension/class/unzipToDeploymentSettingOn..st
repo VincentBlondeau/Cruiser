@@ -6,6 +6,7 @@ unzipToDeploymentSettingOn: aBuilder
 		description: 'Unzip an existing VM zip to the deployment folder';
 		actionTarget: [ PhLVirtualMachineManager ];
 		actionTargetSelector: #unzip:to:;
+		isActivated: false;
 		order: 50;
 		parent: #copying;
 		with: [ (aBuilder deploymentAttribute: #zipFileReference)

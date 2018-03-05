@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "VincentBlondeau 1/31/2018 15:45",
-	"super" : "Exception",
+	"super" : "Abort",
 	"category" : "Cruiser-Exception",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -21,8 +21,13 @@ deploymentGroupsSettingsOn: aBuilder
 		description: 'Operations to clean the application';
 		icon: (self iconNamed: #glamorousTrash);
 		order: 400.
+	(aBuilder deploymentGroup: #UserOperations)
+		label: 'User Operations';
+		description: 'Operations to finalize the creation of the application. They have to be defined by the user of the application';
+		icon: (self iconNamed: #user);
+		order: 500.
 	(aBuilder deploymentGroup: #finalizing)
 		label: 'Finalizing Actions';
-		description: 'Operations to finalize the creation of the application';
+		description: 'Operations to finalize the creation of the packaging: cleaning folders and zipping for example';
 		icon: (self iconNamed: #publish);
-		order: 500
+		order: 600

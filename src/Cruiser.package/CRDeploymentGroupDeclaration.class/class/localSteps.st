@@ -1,3 +1,3 @@
 accessing
 localSteps
-	^ #(#initializing #copying)
+	^ #(#initializing #copying #finalizing)
