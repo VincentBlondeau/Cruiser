@@ -1,7 +1,7 @@
 # Cruiser
 
 Cruiser is a tool to package Pharo applications.
-The idea is to quickly convert a application in a development environment to a production one.
+The idea is to quickly convert an application in a development environment to a production one.
 A production environment means:
 - No writing on the disk
 - No access to the source code (by the shortcuts, debugger,...)
