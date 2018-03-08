@@ -7,5 +7,5 @@ testExecution
 	self assert: fileNames isNotEmpty.
 	filesThatShouldBePresent := #('TempTestApplication.image' 'TempTestApplication.exe').
 	self assert: (filesThatShouldBePresent difference: fileNames) isEmpty.
-	filesThatShouldBeAbsent := #('PharoDebug.log' stderr stdout 'TempTestApplication.sources' 'TempTestApplication.changes').
-	self assertCollection: (filesThatShouldBeAbsent difference: fileNames) equals: filesThatShouldBeAbsent
+	filesThatShouldBeAbsent := #('PharoDebug.log' #stderr #stdout 'TempTestApplication.sources' 'TempTestApplication.changes' 'pharo.version').
+	self assertCollection: (filesThatShouldBeAbsent difference: fileNames) hasSameElements: filesThatShouldBeAbsent 

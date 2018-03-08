@@ -1,3 +1,5 @@
-as yet unclassified
+user interface
 informStatus
-	self inform: 'Action named: ' , self label , ' has been executed!'
+	| message |
+	message := 'Action named: ' , self label , ' has been executed!'.
+	self inform: message.

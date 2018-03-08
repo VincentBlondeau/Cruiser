@@ -7,8 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"deploymentSettingsOld",
-		"deploymentSettingsNew"
+		"deploymentSettingsNew",
+		"session"
 	],
-	"name" : "CRTestExecutionInMemory",
+	"name" : "CRTestExecution",
 	"type" : "normal"
 }

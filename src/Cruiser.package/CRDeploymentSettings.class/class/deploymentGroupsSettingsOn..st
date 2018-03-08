@@ -28,6 +28,6 @@ deploymentGroupsSettingsOn: aBuilder
 		order: 500.
 	(aBuilder deploymentGroup: #finalizing)
 		label: 'Finalizing Actions';
-		description: 'Operations to finalize the creation of the packaging: cleaning folders and zipping for example';
+		description: 'Operations to finalize the creation of the packaging: cleaning folders and zipping for example'; 
 		icon: (self iconNamed: #publish);
 		order: 600

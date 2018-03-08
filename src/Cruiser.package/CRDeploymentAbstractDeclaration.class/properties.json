@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"isActivated"
+		"isActivated",
+		"children"
 	],
 	"name" : "CRDeploymentAbstractDeclaration",
 	"type" : "normal"

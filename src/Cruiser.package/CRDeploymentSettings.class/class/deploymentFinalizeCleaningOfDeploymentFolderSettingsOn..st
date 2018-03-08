@@ -7,4 +7,4 @@ deploymentFinalizeCleaningOfDeploymentFolderSettingsOn: aBuilder
 		actionTarget: [ CRDeploymentSettings current ];
 		actionTargetSelector: #finalizeCleaningOfDeploymentFolder;
 		order: 100;
-		parent: #finalizing
+		parent: #finalizing   

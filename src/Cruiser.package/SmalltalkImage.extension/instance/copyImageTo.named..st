@@ -1,6 +1,6 @@
 *Cruiser
 copyImageTo: aFileReferenceFolder named: anImageName
-	| isTheNewImage currentSources |
+	| isTheNewImage |
 	PharoFilesOpener default unsetInformAboutReadOnlyChanges.	"Because you cannot open twice a write handle on a windows file..."
 	isTheNewImage := self backupTo: anImageName folder: aFileReferenceFolder.
 	isTheNewImage
@@ -8,6 +8,4 @@ copyImageTo: aFileReferenceFolder named: anImageName
 			SourceFiles ensureOpen.
 			CRSkipExecution signal ].
 	SourceFiles ensureOpen.
-	currentSources := FileLocator imageDirectory asFileReference
-		/ self sourcesName allButFirst.
-	currentSources copyTo: aFileReferenceFolder / anImageName , 'sources'
+	self sourcesName asFileReference copyTo: aFileReferenceFolder / anImageName , 'sources'
