@@ -113,14 +113,15 @@ New selectors should be implemented in SettingNodeBuilder and in CRDeploymentDec
 
 ### Features Ideas
 
+- [x] Add tests
+- [x] Active checkbox status should be repercuted on the child items
 - [ ] Settings save and load
 - [ ] Scriptable execution of the actions 
 - [ ] Self opening of the explorer on the deployment folder location at the end of the execution
 - [ ] Add a checkbox for the uses of meta variables
-- [ ] Add tests
+- [ ] Add more tests
 - [ ] Add other OS support
 - [ ] Progress Bar
-- [ ] Active checkbox status should be repercuted on the child items
 - [ ] Add folders that contains the files
 
 ### Known issues
