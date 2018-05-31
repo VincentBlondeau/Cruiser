@@ -12,5 +12,6 @@ baseline: spec
 						loads: #Download;
 						repository: 'http://www.smalltalkhub.com/mc/Pharo/PharoLauncher/main' ].
 			spec package: 'Cruiser' with: [ spec requires: #('PharoLauncher-Download') ].
-			spec package: 'Cruiser-Tests' with: [ spec requires: #('Cruiser') ].
-			spec group: 'default' with: #('Cruiser-Tests' 'Cruiser' 'PharoLauncher-Download') ]
+			spec package: 'Cruiser-Extensions' with: [ spec requires: #('Cruiser') ].
+			spec package: 'Cruiser-Tests' with: [ spec requires: #('Cruiser-Extensions' 'Cruiser') ].
+			spec group: 'default' with: #('Cruiser-Extensions' 'Cruiser-Tests' 'Cruiser' 'PharoLauncher-Download') ]
