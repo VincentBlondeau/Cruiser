@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractStoredSetting",
+	"category" : "Cruiser-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"isActivated"
+	],
+	"name" : "CRDeploymentDeclarationStoredSetting",
+	"type" : "normal"
+}

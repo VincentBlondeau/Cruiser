@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Cruiser-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"deploymentSettingsOld",
+		"deploymentSettingsNew",
+		"session"
+	],
+	"name" : "CRAbstractTest",
+	"type" : "normal"
+}

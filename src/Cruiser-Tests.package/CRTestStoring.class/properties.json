@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "VincentBlondeau 3/5/2018 09:48",
+	"commentStamp" : "",
 	"super" : "CRAbstractTest",
 	"category" : "Cruiser-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CRTestExecution",
+	"name" : "CRTestStoring",
 	"type" : "normal"
 }
