@@ -5,13 +5,11 @@ baseline: spec
 		for: #common
 		do: [ spec
 				preLoadDoIt: #preLoad;
-				project: 'PharoLauncher-Download'
-				with: [ spec
-						className: #ConfigurationOfPharoLauncher;
-						versionString: #bleedingEdge;
-						loads: #Download;
-						repository: 'http://www.smalltalkhub.com/mc/Pharo/PharoLauncher/main' ].
-			spec package: 'Cruiser' with: [ spec requires: #('PharoLauncher-Download') ].
+				baseline: #PharoLauncher
+					with: [ spec
+						repository: 'github://pharo-project/pharo-launcher/src';
+						loads: #Download ].
+			spec package: 'Cruiser' with: [ spec requires: #('PharoLauncher') ].
 			spec package: 'Cruiser-Extensions' with: [ spec requires: #('Cruiser') ].
 			spec package: 'Cruiser-Tests' with: [ spec requires: #('Cruiser-Extensions' 'Cruiser') ].
-			spec group: 'default' with: #('Cruiser-Extensions' 'Cruiser-Tests' 'Cruiser' 'PharoLauncher-Download') ]
+			spec group: 'default' with: #('Cruiser-Extensions' 'Cruiser-Tests' 'Cruiser' 'PharoLauncher') ]
