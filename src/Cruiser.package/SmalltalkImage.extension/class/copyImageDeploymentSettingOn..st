@@ -2,7 +2,7 @@
 copyImageDeploymentSettingOn: aBuilder
 	<deploymentsettings>
 	(aBuilder deployment: #copyExistingImage)
-		label: 'Copy Existing Image';
+		label: 'Copy Current Image';
 		description: 'Copy the current image to the deployment folder';
 		actionTarget: [ SmalltalkImage current ];
 		actionTargetSelector: #copyImageTo:named:;

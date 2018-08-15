@@ -1,3 +1,3 @@
 accessing
 executableName
-	^ self title , '.exe'
+	^ executableName ifNil: [ 'Pharo.exe' ]

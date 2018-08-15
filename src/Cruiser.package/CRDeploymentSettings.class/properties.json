@@ -9,7 +9,8 @@
 	],
 	"instvars" : [
 		"title",
-		"folder"
+		"folder",
+		"executableName"
 	],
 	"name" : "CRDeploymentSettings",
 	"type" : "normal"
