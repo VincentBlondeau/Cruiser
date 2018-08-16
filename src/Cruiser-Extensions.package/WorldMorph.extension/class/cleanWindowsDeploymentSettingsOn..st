@@ -6,5 +6,5 @@ cleanWindowsDeploymentSettingsOn: aBuilder
 		description: 'Close all the current opened windows discarding changes';
 		actionTarget: [ World ];
 		actionTargetSelector: #closeAllWindowsForced;
-		order: 50;
+		order: 005;
 		parent: #cleaning
