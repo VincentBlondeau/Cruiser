@@ -15,7 +15,7 @@ executeActionRemotelyOn: aSettingNode
 				<<
 					(Smalltalk os isUnix
 						ifTrue: [ ' --nodisplay ' ]
-						ifFalse: [ ' --headless ' ]) << $" << CRDeploymentSettings current imageFile pathString << '" '.
+						ifFalse: [ '  ' ]) << $" << CRDeploymentSettings current imageFile pathString << '" '.
 			stream << '--no-default-preferences eval --save ' << $" <<  (self script: aSettingNode) "<< $" "" << $" ].
 	res := PhLProcessWrapper waitForCommand: cmd.
 	"It seems that a finalization for the remote command has to be done. A wait of 2 seconds avoids that the execution fail.

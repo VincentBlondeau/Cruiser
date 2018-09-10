@@ -7,4 +7,11 @@ deploymentFinalizeCleaningOfDeploymentFolderSettingsOn: aBuilder
 		actionTarget: [ CRDeploymentSettings current ];
 		actionTargetSelector: #finalizeCleaningOfDeploymentFolder;
 		order: 100;
-		parent: #finalizing   
+		parent: #finalizing.
+	(aBuilder deployment: #zipFolder)
+		label: 'Create a Zip of Deployment folder';
+		description: 'Zip all the files that are in the deployement folder.';
+		actionTarget: [ CRDeploymentSettings current ];
+		actionTargetSelector: #zipDeploymentFolder;
+		order: 999;
+		parent: #finalizing

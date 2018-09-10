@@ -1,6 +1,6 @@
 *Cruiser-Extensions
 deploymentImageCleanerSettingsOn: aBuilder
-	<deploymentsettings>
+
 	(aBuilder deployment: #imageCleaner)
 		label: 'Launch the image cleaner';
 		description: 'Clean the image and unload some of the packages';

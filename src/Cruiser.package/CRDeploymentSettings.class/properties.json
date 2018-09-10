@@ -10,7 +10,8 @@
 	"instvars" : [
 		"title",
 		"folder",
-		"executableName"
+		"executableName",
+		"iconPath"
 	],
 	"name" : "CRDeploymentSettings",
 	"type" : "normal"
