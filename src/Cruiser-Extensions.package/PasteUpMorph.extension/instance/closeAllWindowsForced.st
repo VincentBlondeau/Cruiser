@@ -1,6 +1,6 @@
 *Cruiser-Extensions
 closeAllWindowsForced
-	World systemWindows
+	World systemWindows copy
 		do: [ :w | 
 			w makeClosable.
 			[ w delete ] valueSupplyingAnswer: false ]

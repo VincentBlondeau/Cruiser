@@ -4,7 +4,9 @@
 	"category" : "Cruiser-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"Count"
+	],
 	"instvars" : [
 		"collectionToExecute"
 	],

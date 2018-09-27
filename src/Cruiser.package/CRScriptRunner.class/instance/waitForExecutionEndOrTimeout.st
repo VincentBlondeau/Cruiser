@@ -5,8 +5,12 @@ waitForExecutionEndOrTimeout
 	sem := Semaphore new.
 	Delay timeoutSemaphore: sem afterMSecs: 10000.
 	process := [ [ shouldExit ]
-		whileFalse: [ (CRDeploymentSettings current folder / 'exec.log') contents = '1'
+		whileFalse: [ | file |
+			file := CRDeploymentSettings current folder / 'exec.log'.
+			(file exists and: [ file contents = '1' ])
 				ifTrue: [ sem signal ].
 			1 second wait ] ] fork.
 	sem wait.
+	process isTerminated
+		ifFalse: [ process terminate ].
 	shouldExit := true
