@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Cruiser-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Count"
+	],
+	"instvars" : [
+		"collectionToExecute"
+	],
+	"name" : "CRScriptRunner",
+	"type" : "normal"
+}
