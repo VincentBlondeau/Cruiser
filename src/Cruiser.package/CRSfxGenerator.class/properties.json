@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "VincentBlondeau 9/27/2018 15:44",
+	"super" : "Object",
+	"category" : "Cruiser-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CRSfxGenerator",
+	"type" : "normal"
+}

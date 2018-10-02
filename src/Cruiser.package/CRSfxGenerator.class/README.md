@@ -1,0 +1,1 @@
+I am creating a executable file from a .7z . The executable is auto extractable and will launch automatically the packaged application.
