@@ -1,5 +1,5 @@
 *Cruiser-Extensions
-copyImageTo: aFileReferenceFolder named: anImageName
+copyImageTo: aFileReferenceFolder named: anImageName 
 	| isTheNewImage newSourceName srcFileRef wait |
 
 	PharoFilesOpener default unsetInformAboutReadOnlyChanges.	"Because you cannot open twice a write handle on a windows file..."
