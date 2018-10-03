@@ -1,4 +1,4 @@
-as yet unclassified
+deployment settings
 deploymentFinalizeCreateSelfExtractArchiveSettingsOn: aBuilder
 	<deploymentsettings>
 	(aBuilder deployment: #createSelfExtractArchive)

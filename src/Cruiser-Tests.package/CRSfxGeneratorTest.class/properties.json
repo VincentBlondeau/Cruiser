@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CRAbstractTest",
+	"category" : "Cruiser-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"instance"
+	],
+	"name" : "CRSfxGeneratorTest",
+	"type" : "normal"
+}
