@@ -1,5 +1,6 @@
 running
 run
+	self create7zArchive.
 	self getSfxFile.
 	self createInstructionFile.
-	self createArchive.
+	self createExecutableArchive.
