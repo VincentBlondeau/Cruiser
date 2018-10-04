@@ -1,0 +1,3 @@
+accessing
+programToExecuteRelativePath: anObject
+	programToExecuteRelativePath := anObject

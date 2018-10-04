@@ -1,3 +1,3 @@
 private-writing
-writeParametersOn: aZnCharacterWriteStream 
-	self halt.
+writeParametersOn: aZnCharacterWriteStream
+	self parameters ifNotNil: [ :params | params writeOn: aZnCharacterWriteStream ]
