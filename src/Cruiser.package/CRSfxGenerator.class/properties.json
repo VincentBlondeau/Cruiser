@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"instructionsFileReference"
+		"instructionsFileReference",
+		"parameters"
 	],
 	"name" : "CRSfxGenerator",
 	"type" : "normal"

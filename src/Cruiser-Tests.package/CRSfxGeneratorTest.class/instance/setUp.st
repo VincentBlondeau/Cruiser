@@ -1,3 +1,5 @@
 running
 setUp
-	instance := CRSfxGenerator new
+	instance := CRSfxGenerator new.
+	file := FileSystem memory / 'tempFile.txt'.
+	instance instructionsFileReference: file
