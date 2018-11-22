@@ -1,0 +1,3 @@
+accessing
+instructionFilePath
+	^ self instructionsFileReference 

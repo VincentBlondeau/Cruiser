@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 parameters: aCRSfxParameters 
 	parameters := aCRSfxParameters

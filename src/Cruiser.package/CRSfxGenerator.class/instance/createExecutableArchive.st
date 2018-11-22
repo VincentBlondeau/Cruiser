@@ -1,8 +1,9 @@
-as yet unclassified
+private
 createExecutableArchive
-	self halt. 
-	(Smalltalk at: #ProcessWrapper) new
-		startWithShellCommand: 'copy /b "' , self sfxFilePathString , '" + "' , self instructionFilePathString , '" + "' , self sevenZArchivePathString , '" "'
-				, self executablePathString, '"';
-		yourself
-			
+	self executablePath ensureDelete.
+	self executablePath ensureCreateFile.
+	self executablePath
+		binaryWriteStreamDo: [ :s | 
+			{self sfxFilePath.
+			self instructionFilePath.
+			self sevenZArchivePath} do: [ :eachFile | eachFile binaryReadStreamDo: [ :inputStream | ZnUtils streamFrom: inputStream to: s ] ] ]

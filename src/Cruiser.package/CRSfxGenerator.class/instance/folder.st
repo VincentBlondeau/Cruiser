@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 folder
 	^ CRDeploymentSettings current folder

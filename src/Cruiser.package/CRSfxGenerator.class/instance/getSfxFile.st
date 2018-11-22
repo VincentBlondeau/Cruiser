@@ -1,4 +1,4 @@
-as yet unclassified
+private
 getSfxFile
 	| targetFileRef |
 	targetFileRef := self folder / '7zS.sfx'.
