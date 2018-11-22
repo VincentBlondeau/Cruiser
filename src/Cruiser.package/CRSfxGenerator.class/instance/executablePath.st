@@ -1,3 +1,3 @@
 accessing
 executablePath
-	^ (CRDeploymentSettings current folder / 'testtest' , 'exe2') 
+	^ (CRDeploymentSettings current folder /  CRDeploymentSettings current projectName, '-standalone' , 'exe') 
