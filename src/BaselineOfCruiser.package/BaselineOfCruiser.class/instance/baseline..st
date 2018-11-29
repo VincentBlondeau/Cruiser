@@ -7,8 +7,7 @@ baseline: spec
 				preLoadDoIt: #preLoad;
 				baseline: #PharoLauncher
 					with: [ spec
-						repository: 'github://pharo-project/pharo-launcher:development/src';
-						loads: #Download ].
+						repository: 'github://pharo-project/pharo-launcher:development/src'].
 			spec package: 'Cruiser' with: [ spec requires: #('PharoLauncher') ].
 			spec package: 'Cruiser-Extensions' with: [ spec requires: #('Cruiser') ].
 			spec package: 'Cruiser-Tests' with: [ spec requires: #('Cruiser-Extensions' 'Cruiser') ].
