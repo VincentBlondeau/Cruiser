@@ -8,6 +8,8 @@ A production environment means:
 - No error displaying on the interface
 - The only thing accessible is the developed application 
 
+Slides from ESUG 18 there: https://www.slideshare.net/esug/cruiser-a-tool-to-package-pharo-applications
+
 ## How to install
 
 On a latest Pharo 7 image, clone the repository in Iceberg and load the baseline of Cruiser.
