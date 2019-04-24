@@ -1,4 +1,6 @@
 # Cruiser
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FVincentBlondeau%2FCruiser.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FVincentBlondeau%2FCruiser?ref=badge_shield)
+
 
 Cruiser is a tool to package Pharo applications.
 The idea is to quickly convert an application in a development environment to a production one.
@@ -131,3 +133,7 @@ New selectors should be implemented in SettingNodeBuilder and in CRDeploymentDec
 - The execution of the operations on the remote image is made with the ProcessWrapper Dll. On Windows, this tool do not give a return value about the success or failure of the execution. For this, a FFI implementation of ProcessWrapper will be needed but the FFI have to be multithreaded in other to execute asynchronuous calls.
 - Some features, like the FFI without the sources, are very new and can have some issues
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FVincentBlondeau%2FCruiser.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FVincentBlondeau%2FCruiser?ref=badge_large)
